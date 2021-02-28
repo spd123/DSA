@@ -28,6 +28,6 @@ jobs:
         restore-keys: ${{ runner.os }}-m2
 
     - name: Run the Maven verify phase
-      run: mvn --batch-mode --update-snapshots verify
+      run: mvn --batch-mode test --update-snapshots verify
 
 
