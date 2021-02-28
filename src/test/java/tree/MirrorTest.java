@@ -3,7 +3,7 @@ package tree;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class MirrorTest {
+class MirrorTest {
     private final BinaryTree tree = new BinaryTree();
     @Test
     void isMirror(){
