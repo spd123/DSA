@@ -2,7 +2,7 @@ package tree;
 
 /*
 Program to check whether two trees are mirror of themselves.
- */
+*/
 public class Mirror {
 
     public static boolean isMirror(TreeNode source, TreeNode image){
