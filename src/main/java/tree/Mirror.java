@@ -8,6 +8,7 @@ public class Mirror {
     public static boolean isMirror(TreeNode source, TreeNode image){
         if(source==null && image==null)
             return true;
+        
         if(source==null || image==null)
             return false;
         return source.getVal()==image.getVal() && isMirror(source.getLeft(),image.getRight()) &&
