@@ -1,7 +1,4 @@
-## Change Log Version\n\n---\n\n### 💡 Description\n\nUpdate README.md\n\n### 🍕 Feature/Enhancement\n\n## Change Log Version
-<p>------------------------------------------------------------------------------------------------------------------------------------------------------</p>
-
-### 💡 Description
+## Change Log Version\n\n---\n\n### 💡 Description\n\nUpdate Mirror.java\n\n### 🍕 Feature/Enhancement\n\n### 💡 Description
 <!-- Provide a brief description of the changes introduced by this pull request -->
 
 ### 🍕 Feature/Enhancement
@@ -11,13 +8,13 @@
 <!-- Describe the fixed bug and steps to reproduce (if applicable) -->
 
 ### 🎨 UI/UX Changes
-<!-- Explain any changes made to the user interface or user experience -->
+<!-- Explain any changes made to the user interface or user experience (if applicable) -->
 
 ### 🔥 Performance Improvements
-<!-- Describe any optimizations made to improve performance -->
+<!-- Describe any optimizations made to improve performance (if applicable) -->
 
 ### ➕ Dependencies
-<!-- List any new dependencies added or updates to existing dependencies -->
+<!-- List any new dependencies added or updates to existing dependencies (if applicable) -->
 
 ### 🔐 Security
 <!-- Describe any security-related changes or updates -->
@@ -31,4 +28,4 @@
 ### 😕 Other
 <!-- Any other changes or updates not covered in the above sections -->
 
-<p>------------------------------------------------------------------------------------------------------------------------------------------------------</p>\n\n### 🐛 Bug Fixes\n\n### 🎨 UI/UX Changes\n\n### 🔥 Performance Improvements\n\n### ➕ Dependencies\n\n### 🔐 Security\n\n### ✅ Test\n\n### 📝 Documentation\n\n### 😕 Other\n\n---
+<p>------------------------------------------------------------------------------------------------------------------------</p>\n\n### 🐛 Bug Fixes\n\n### 🎨 UI/UX Changes\n\n### 🔥 Performance Improvements\n\n### ➕ Dependencies\n\n### 🔐 Security\n\n### ✅ Test\n\n### 📝 Documentation\n\n### 😕 Other\n\n---
