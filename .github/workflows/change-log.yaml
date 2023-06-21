@@ -29,7 +29,7 @@ jobs:
           PR_DATE=$(jq --raw-output .pull_request.closed_at "$GITHUB_EVENT_PATH")
 
           # Create the change log content
-          CHANGE_LOG_CONTENT="## Version - 1.0.$PR_NUMBER - $PR_DATE ## $PR_BODY"
+          CHANGE_LOG_CONTENT="## Version - 1.0.$PR_NUMBER   -   $PR_DATE  $PR_BODY"
 
           # Create the change log file
           echo "$(cat change-log.md)" > echo "$CHANGE_LOG_CONTENT" > change-log.md
