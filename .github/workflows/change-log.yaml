@@ -29,10 +29,10 @@ jobs:
           PR_DATE=$(jq --raw-output .pull_request.closed_at "$GITHUB_EVENT_PATH")
 
           # Create the change log content
-          CHANGE_LOG_CONTENT="Version - 1.0.$PR_NUMBER Date - $PR_DATE\n$PR_BODY\n"
+          CHANGE_LOG_CONTENT="Version - 1.0.$PR_NUMBER Date - $PR_DATE $PR_BODY\n"
 
           # Create the change log file
-          echo "$CHANGE_LOG_CONTENT" > cat change-log.md > change-log.md
+          echo "$(cat change-log.md)" > echo "$CHANGE_LOG_CONTENT" > change-log.md
 
       - name: Commit Change Log File
         if: steps.pr-status.outputs.status == 'true'
