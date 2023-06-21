@@ -1,8 +1,9 @@
-## Version - 1.0.4 ## \n ### \n## Change Log Version
+## Version - 1.0.5 Date - PR_DATE## \n## Change Log Version
 <p>------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 
 ### 💡 Description
 <!-- Provide a brief description of the changes introduced by this pull request -->
+- Readme.md update
 
 ### 🍕 Feature/Enhancement
 <!-- Describe the feature or enhancement in detail -->
@@ -31,4 +32,4 @@
 ### 😕 Other
 <!-- Any other changes or updates not covered in the above sections -->
 
-<p>------------------------------------------------------------------------------------------------------------------------------------------------------</p> ###\n
+<p>------------------------------------------------------------------------------------------------------------------------------------------------------</p>\n
